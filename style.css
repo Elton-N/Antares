@@ -1,0 +1,106 @@
+*{
+    
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap');
+
+}
+
+main{
+    width: 100vw; /*Largura do Main*/    
+    height: 100vh;/*Altura do Main*/
+    background-color: #f3f3f3; /*Cor do Fundo*/  
+    display: flex;/*Tornar flexivel*/
+    align-items: center;/*Alinhar na Altura*/
+    justify-content: center;/*Alinhamento na Largura*/
+
+    font-family: 'Poppins', sans-serif;/*Fonte Principal*/
+    /*font-family: 'Roboto', sans-serif;*/
+
+}
+
+.card{
+    background-color: white;
+    padding: 50px;/*Espacamento Interno*/
+    border-radius: 10px;/*Aredontamento da Borda*/
+    box-shadow: 5px 5px 20px #cdb9ec;/*Sombra da Borda*/
+}
+h1{
+    color: #4813a1;/*Cor da Fonte*/
+    font-size: 40px;/*Tamanho da Fonte*/
+    text-align: center;/*Centralizando Fonte*/
+
+}
+.textfied{
+     font-family: 'Roboto', sans-serif;/*Fonte Roboto*/
+     font-size: 30px;
+     color: #4813a1;/*Cor do Texto*/
+     width: 100%;
+     display: inline-block;/*Na mesma linha*/
+     padding: 10px;
+     
+}
+
+input{
+    width: 85%;
+    margin-left: 10px;/*Margen da Direita*/
+    height: 50px;
+    border-radius: 5px;
+    outline: none;/*Borda do Click*/
+    font-size: 15px;
+    color:#4813a1;
+    border: 1px solid #cdb9ec;/*Borda Estilizando*/
+    font-size: 15px;
+    padding: 5px;
+}
+
+input::placeholder{/*Texto Dentro do Input*/
+    color: #cdb9ec;
+    padding: 5px;
+    font-size: 15px;
+}
+
+input:hover {/*Click*/
+box-shadow: 2px 2px 5px #cdb9ec;
+}
+
+input:focus {/*Em Cima*/
+    border: 2px solid #844bd9;
+}
+
+.botao{/*Botão Principal*/
+    margin-right: -10px;/*Margem para Direita*/
+    margin-top: 20px;/*Margem para Cima*/
+}
+
+.btn-login{/*Estilizando o Botão*/
+    width: 96%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4813a1;
+    color: #cdb9ec;
+    border-radius:5px ;
+    border: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #cdb9ec;/*Sombra*/
+}
+
+.btn-login:focus{
+    color:white;
+    cursor: pointer;/*Mãozinha*/
+}
+
+.btn-login:hover{
+    background-color: #844bd9;
+    cursor: pointer; 
+
+}
+
+i{/*Icone*/
+    font-size: 40px;
+    text-align: center;
+}
+
+i:hover{
+    color: #cdb9ec;
+}
