@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;/*Sem Margem*/
+    padding: 0;/*Sem Espaçamento Interno*/
+    box-sizing: border-box;/*Trabalhando com Caixa*/
+    font-family: 'Roboto';/*Fonte do Projeto*/
+}
+nav{
+    height: 100vh;/*Altura*/
+    width: 260px;/*Largura*/
+    width: 50vw;
+    background: #006464;/**/
+    position: fixed;/**/
+    top: 0;/*Topo do Site*/
+    left: 0;/*Espaço da Esquerda*/
+}
+.expandir{
+    height: 60px;
+    width: 100%;
+    display: flex;/*Display Flexivel*/
+    align-items: center;/*Item Centralizado*/
+}
+.expandir i{
+    font-size: 30px;/*Tamanho da Fonte*/
+    color: #fff;/*Cor da Fonte*/
+    height: 50px;
+    min-width: 78px;
+    text-align: center;/*Texto Centralizado na Horizontal*/
+    line-height: 50px;/*Texto Centralizado na Vertical*/
+    cursor: pointer;  /*Mãozinha*/
+}
+
+.expandir .text-list{
+
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;/*Negrito de 700*/
+}
+.nav-links{
+  
+    height: 100%;
+    padding: 30px 0 150px 0;
+    overflow:auto;/*Rolagem Automatica*/
+
+}
+.nav-links::-webkit-scrollbar{
+    display: none;/*Sem Display*/
+
+}
+li{
+    
+    list-style: none;/*Sem Estilo*/
+    position: relative;/*Posição Relativa*/
+
+}
+li:hover{
+    background: #23b872;
+
+}
+.icon-li{
+    display: flex;
+    align-items: center;/*Alinhamento Vetical*/
+    justify-content: space-between;/*Alinhamento Horizontal*/
+}
+li i{
+    height: 50px;
+    color:#fff ;
+    min-width: 78px;
+    text-align: center;/*Texto Centralizado*/
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+li a{
+    display: flex;
+    align-items:center ;
+    text-decoration: none;
+}
+
+li .text-list{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+li .sub-menu{
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: #006464;
+    /*display: none;*/
+}
+li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;/*Quebra de Linha*/
+    opacity: 0.6;
+}
+li .sub-menu a:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
