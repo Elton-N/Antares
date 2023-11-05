@@ -13,7 +13,7 @@ O clone da página "Antares" é uma demonstração de como criar uma página web
 - Possibilidade de integração de recursos interativos ou dinâmicos (se aplicável).
 
 ## Implantar
-O projeto está disponível em https://antares-murex.vercel.app/   no Vercel para visualização.
+O projeto está disponível em https://antares-swart.vercel.app/ no Vercel para visualização.
 
 Seja bem-vindo ao Clone-Antares, e sinta-se à vontade para contribuir ou entrar em contato conosco!
 
