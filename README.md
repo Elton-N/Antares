@@ -12,3 +12,8 @@ O clone da página "Antares" é uma demonstração de como criar uma página web
 - Demonstração de técnicas de desenvolvimento web responsivo.
 - Possibilidade de integração de recursos interativos ou dinâmicos (se aplicável).
 
+## Implantar
+O projeto está disponível em  no Vercel para visualização.
+
+Seja bem-vindo ao Clone-Antares, e sinta-se à vontade para contribuir ou entrar em contato conosco!
+
