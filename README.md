@@ -6,11 +6,12 @@ Este é um clone da página "Antares", uma aplicação web de demonstração par
 
 O clone da página "Antares" é uma demonstração de como criar uma página web atraente e moderna usando HTML, CSS e possivelmente JavaScript. Este projeto foi criado com fins educacionais e de aprendizado.
 
-## Funcionalidades
+## Desafios
+Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes desafios:
 
-- Apresenta o layout e o design da página "Antares" original.
-- Demonstração de técnicas de desenvolvimento web responsivo.
-- Possibilidade de integração de recursos interativos ou dinâmicos (se aplicável).
+A organização eficiente de elementos em linhas e colunas proporciona uma experiência de usuário agradável.
+
+Utilização de elementos sobrepostos para criar camadas de design envolventes e interessantes.
 
 ## Implantar
 O projeto está disponível em https://antares-swart.vercel.app/ no Vercel para visualização.
